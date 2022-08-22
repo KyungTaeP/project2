@@ -189,7 +189,7 @@ img {
 .main_slide {
     max-width: 1920px;
     height: 700px;
-    border: 7px dotted coral;
+    /* border: 7px dotted coral; */
     overflow: hidden;
     margin: auto;
     position: relative;
@@ -206,7 +206,7 @@ img {
     /* height: 70vh; */
     overflow: hidden;
     list-style: none;
-    border: 10px dashed lightgreen;
+    /* border: 10px dashed lightgreen; */
 }
 
 .main_slide .prev,
@@ -293,7 +293,7 @@ img {
     padding-top: 3%;
     height: 930px;
     /* height: 80vh; */
-    border: 5px solid red;
+    /* border: 5px solid red; */
     display: flex;
     font-size: 32px;
 }
@@ -301,7 +301,7 @@ img {
 .main_2 .delivery_list {
     width: 40%;
     /* height: 75vh; */
-    border: 1px dotted red;
+    /* border: 1px dotted red; */
     color: #B7884C;
     font-weight: bold;
 }
@@ -309,7 +309,7 @@ img {
 .main_2 .delivery_list .delivery {
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     font-size: 22px;
 }
 
@@ -327,7 +327,7 @@ img {
     top: 270px;
     left: 100px;
     color: #B7884C;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 .main_2 .delivery_list .delivery > li > a:hover,
@@ -356,7 +356,7 @@ img {
 .main_2 .product {
     position: relative;
     width: 60%;
-    border: 1px dotted blue;
+    /* border: 1px dotted blue; */
     display: flex;
 }
 
@@ -376,7 +376,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid lightgray;
+    /* border: 1px solid lightgray; */
     border-bottom-color: transparent;
     border-radius: 16px 16px 0 0;
 }
@@ -437,11 +437,11 @@ img {
     position: relative;
     font-size: 0.75rem;
     padding: 10px;
-    border: 3px dotted blue;
+    /* border: 3px dotted blue; */
 }
 
 .main_2 .product > ul > li > img {
-    border: 4px dotted black;
+    /* border: 4px dotted black; */
     width: 100%;
 }
 
@@ -488,27 +488,27 @@ img {
 .brand {
     padding-top: 3%;
     height: 850px;
-    border: 5px dotted cornflowerblue;
+    /* border: 5px dotted cornflowerblue; */
     font-size: 32px;
     color: #B7884C;
     font-weight: bold;
 }
 
 .brand .inner {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
 }
 
 .brand .inner .brand_sns {
     position: relative;
-    border: 5px dotted blue;
+    /* border: 5px dotted blue; */
     display: flex;
     width: 60%;
 }
 
-.brand .inner .brand_story {
+/* .brand .inner .brand_story {
     border: 5px dotted gray;
-}
+} */
 
 .brand .inner .brand_sns > img {
     width: 50px;
@@ -534,7 +534,7 @@ img {
 
 .brand .inner .brand_story {
     width: 40%;
-    border: 5px dotted gold;
+    /* border: 5px dotted gold; */
     position: relative;
 }
 
@@ -587,12 +587,12 @@ img {
 /* sec noti start */
 .info {
     padding-top: 3%;
-    border: 5px dotted red;
+    /* border: 5px dotted red; */
     height: 400px;
 }
 
 .info .inner {
-    border: 5px dotted blue;
+    /* border: 5px dotted blue; */
 }
 
 .info .inner {
@@ -600,7 +600,7 @@ img {
 }
 
 .info .inner .cs_center {
-    border: 5px dotted black;
+    /* border: 5px dotted black; */
     width: 50%;
     font-size: 32px;
     color: #B7884C;
@@ -614,7 +614,7 @@ img {
 }
 
 .info .inner .cs_center .btn {
-    border: 5px dotted burlywood;
+    /* border: 5px dotted burlywood; */
     font-size: 28px;
 }
 
@@ -622,7 +622,7 @@ img {
     position: relative;
     text-align: center;
     padding: 1rem;
-    border: 1px solid #87553D;
+    /* border: 1px solid #87553D; */
     border-radius: 30px;
     display: block;
     width: 290px;
@@ -639,6 +639,10 @@ img {
     background-color: #87553D;
 }
 
+.info .inner .cs_center .btn a:nth-of-type(2) {
+    background-color: #eaeaea;
+}
+
 .info .inner .cs_center .btn a:last-child {
     background-color: #FEE600;
 }
@@ -649,7 +653,7 @@ img {
 }
 
 .info .inner .noti {
-    border: 5px dotted gray;
+    /* border: 5px dotted gray; */
     width: 50%;
 }
 
@@ -658,6 +662,10 @@ img {
     font-size: 28px;
     padding: 10px;
     display: flex;
+}
+
+.info .inner .noti .noti_list li > span:nth-of-type(1) {
+    border-bottom: 1px dotted gray;
 }
 
 .info .inner .noti .noti_list li:hover::after {
@@ -695,7 +703,7 @@ footer {
 }
 
 .inner .family .family_site {
-    border: 5px solid red;
+    /* border: 5px solid red; */
     display: flex;
     height: 100px;
     justify-content: center;
